@@ -1,0 +1,25 @@
+var files_dup =
+[
+    [ "Combate.cpp", "_combate_8cpp.html", "_combate_8cpp" ],
+    [ "Combate.h", "_combate_8h.html", "_combate_8h" ],
+    [ "Dragon.cpp", "_dragon_8cpp.html", null ],
+    [ "Dragon.h", "_dragon_8h.html", "_dragon_8h" ],
+    [ "Golem.cpp", "_golem_8cpp.html", null ],
+    [ "Golem.h", "_golem_8h.html", "_golem_8h" ],
+    [ "Heroe.cpp", "_heroe_8cpp.html", null ],
+    [ "Heroe.h", "_heroe_8h.html", "_heroe_8h" ],
+    [ "Inventario.cpp", "_inventario_8cpp.html", null ],
+    [ "Inventario.h", "_inventario_8h.html", "_inventario_8h" ],
+    [ "Objeto.cpp", "_objeto_8cpp.html", null ],
+    [ "Objeto.h", "_objeto_8h.html", "_objeto_8h" ],
+    [ "Personaje.cpp", "_personaje_8cpp.html", null ],
+    [ "Personaje.h", "_personaje_8h.html", "_personaje_8h" ],
+    [ "PocionAtaque.cpp", "_pocion_ataque_8cpp.html", null ],
+    [ "PocionAtaque.h", "_pocion_ataque_8h.html", "_pocion_ataque_8h" ],
+    [ "PocionDefensa.cpp", "_pocion_defensa_8cpp.html", null ],
+    [ "PocionDefensa.h", "_pocion_defensa_8h.html", "_pocion_defensa_8h" ],
+    [ "PocionVida.cpp", "_pocion_vida_8cpp.html", null ],
+    [ "PocionVida.h", "_pocion_vida_8h.html", "_pocion_vida_8h" ],
+    [ "Zombie.cpp", "_zombie_8cpp.html", null ],
+    [ "Zombie.h", "_zombie_8h.html", "_zombie_8h" ]
+];
