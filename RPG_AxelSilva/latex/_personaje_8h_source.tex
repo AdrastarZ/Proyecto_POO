@@ -1,0 +1,51 @@
+\doxysection{Personaje.\+h}
+\hypertarget{_personaje_8h_source}{}\label{_personaje_8h_source}\mbox{\hyperlink{_personaje_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{preprocessor}{\#ifndef\ PERSONAJE\_H}}
+\DoxyCodeLine{00002\ \textcolor{preprocessor}{\#define\ PERSONAJE\_H}}
+\DoxyCodeLine{00003\ }
+\DoxyCodeLine{00004\ \textcolor{preprocessor}{\#include\ <iostream>}}
+\DoxyCodeLine{00005\ }
+\DoxyCodeLine{00006\ \textcolor{keyword}{using\ namespace\ }std;}
+\DoxyCodeLine{00007\ }
+\DoxyCodeLine{00008\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_personaje_afa1c1cb0768df2ddbd9cb0c7125ba3f0}{Personaje}}\ \textcolor{comment}{//Clase\ Base}}
+\DoxyCodeLine{00009\ \{}
+\DoxyCodeLine{00010\ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00011\ \ \ \ \ \textcolor{keywordtype}{string}\ nombre;}
+\DoxyCodeLine{00012\ \ \ \ \ \textcolor{keywordtype}{int}\ vidaMaxima;}
+\DoxyCodeLine{00013\ \ \ \ \ \textcolor{keywordtype}{int}\ vidaActual;}
+\DoxyCodeLine{00014\ \ \ \ \ \textcolor{keywordtype}{int}\ ataque;}
+\DoxyCodeLine{00015\ \ \ \ \ \textcolor{keywordtype}{int}\ defensa;}
+\DoxyCodeLine{00016\ \ \ \ \ }
+\DoxyCodeLine{00017\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00018\ \ \ \ \ \mbox{\hyperlink{class_personaje_afa1c1cb0768df2ddbd9cb0c7125ba3f0}{Personaje}}(\textcolor{keywordtype}{string}\ nom,\ \textcolor{keywordtype}{int}\ atk,\ \textcolor{keywordtype}{int}\ def,\ \textcolor{keywordtype}{int}\ psMax);}
+\DoxyCodeLine{00019\ \ \ \ \ }
+\DoxyCodeLine{00020\ \ \ \ \ \textcolor{keyword}{virtual}\ \mbox{\hyperlink{class_personaje_a0b3c25862a6081aaee96e77c08edda29}{\string~Personaje}}();}
+\DoxyCodeLine{00021\ }
+\DoxyCodeLine{00022\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_personaje_ad5c3a613cb35a92472a164a6fac20111}{setNombre}}(\textcolor{keywordtype}{string}\ nom);}
+\DoxyCodeLine{00023\ \ \ \ \ \textcolor{keywordtype}{string}\ \mbox{\hyperlink{class_personaje_a579df2fbe0de0583c9307dc7ae6eb56e}{getNombre}}();}
+\DoxyCodeLine{00024\ }
+\DoxyCodeLine{00025\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_personaje_a100c669d43101de23ccb8d8af95af1fd}{setVidaActual}}(\textcolor{keywordtype}{int}\ psRestante);\ \textcolor{comment}{//Vida\ cambia\ conforme\ subes\ de\ nivel\ o\ te\ golpean\ \ \ \ \ \ }}
+\DoxyCodeLine{00026\ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{class_personaje_afff90879e6050a03402d3c390a9d8e2f}{getVidaActual}}();}
+\DoxyCodeLine{00027\ }
+\DoxyCodeLine{00028\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_personaje_abdbf0d48743c24837afe401de1563620}{setVidaMaxima}}(\textcolor{keywordtype}{int}\ psMax);\ \ \ }
+\DoxyCodeLine{00029\ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{class_personaje_ae77616c237cefd369d42a9d192269182}{getVidaMaxima}}();}
+\DoxyCodeLine{00030\ }
+\DoxyCodeLine{00031\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_personaje_ab49b3a18a688cbfe4c31d313dd7efe32}{setAtaque}}(\textcolor{keywordtype}{int}\ atk);}
+\DoxyCodeLine{00032\ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{class_personaje_ab91279a4171e0bc38f4282416809f116}{getAtaque}}();}
+\DoxyCodeLine{00033\ }
+\DoxyCodeLine{00034\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_personaje_a603f958d5bfe00b10fd2bb6447d4e613}{setDefensa}}(\textcolor{keywordtype}{int}\ def);}
+\DoxyCodeLine{00035\ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{class_personaje_ad2c2b1334e8363c4c2b914930585f09b}{getDefensa}}();}
+\DoxyCodeLine{00036\ }
+\DoxyCodeLine{00037\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_personaje_a3aaa99df5577d099ef8193eb74f5ee33}{atacar}}(\mbox{\hyperlink{class_personaje_afa1c1cb0768df2ddbd9cb0c7125ba3f0}{Personaje}}\ \&objetivo);}
+\DoxyCodeLine{00038\ \ \ \ \ \textcolor{keyword}{virtual}\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_personaje_a74c7293231599b0ee5217deaa566c82b}{recibirDano}}(\textcolor{keywordtype}{int}\ cantidad);}
+\DoxyCodeLine{00039\ \ \ \ \ \textcolor{keyword}{virtual}\ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{class_personaje_a72fe23f0bac5b78317cba0d68536f67e}{getXP}}()\ \{\ \textcolor{keywordflow}{return}\ 0;\ \}}
+\DoxyCodeLine{00040\ \ \ \ \ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{class_personaje_a9f53b9854c756fe0fd6f040d17755440}{estaVivo}}();}
+\DoxyCodeLine{00041\ }
+\DoxyCodeLine{00042\ \};}
+\DoxyCodeLine{00043\ }
+\DoxyCodeLine{00044\ \textcolor{preprocessor}{\#endif}}
+\DoxyCodeLine{00045\ }
+\DoxyCodeLine{00046\ }
+
+\end{DoxyCode}

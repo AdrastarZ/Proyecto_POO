@@ -1,0 +1,29 @@
+\doxysection{Pocion\+Vida.\+h}
+\hypertarget{_pocion_vida_8h_source}{}\label{_pocion_vida_8h_source}\mbox{\hyperlink{_pocion_vida_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{preprocessor}{\#ifndef\ POCIONVIDA\_H}}
+\DoxyCodeLine{00002\ \textcolor{preprocessor}{\#define\ POCIONVIDA\_H}}
+\DoxyCodeLine{00003\ }
+\DoxyCodeLine{00004\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{_objeto_8h}{Objeto.h}}"{}}}
+\DoxyCodeLine{00005\ \textcolor{preprocessor}{\#include\ <iostream>}}
+\DoxyCodeLine{00006\ }
+\DoxyCodeLine{00007\ }
+\DoxyCodeLine{00008\ \textcolor{keyword}{using\ namespace\ }std;}
+\DoxyCodeLine{00009\ }
+\DoxyCodeLine{00010\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_pocion_vida_ad256692f12c543c25301dd033fadb783}{PocionVida}}\ :\ \textcolor{keyword}{public}\ \mbox{\hyperlink{class_objeto_adf4ba437350df79f9ae1f0876a31fccc}{Objeto}}\ \textcolor{comment}{//Clase\ heredada\ de\ la\ clase\ Objeto}}
+\DoxyCodeLine{00011\ \{}
+\DoxyCodeLine{00012\ \textcolor{keyword}{protected}:}
+\DoxyCodeLine{00013\ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{class_pocion_vida_aacb316c57115542ab9cdfde40d0ba6dc}{cantidad}};}
+\DoxyCodeLine{00014\ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{class_pocion_vida_a1127e128d240d4dc108cad6eeab5dc48}{curacionMin}};}
+\DoxyCodeLine{00015\ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{class_pocion_vida_a79a56dc62da2ae84e71dcd4395772be2}{curacionMax}};}
+\DoxyCodeLine{00016\ }
+\DoxyCodeLine{00017\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00018\ \ \ \ \ \mbox{\hyperlink{class_pocion_vida_ad256692f12c543c25301dd033fadb783}{PocionVida}}();}
+\DoxyCodeLine{00019\ \ \ \ \ \textcolor{keyword}{virtual}\ \mbox{\hyperlink{class_pocion_vida_a2909878d3ae62c032f7c9ba380c88da2}{\string~PocionVida}}();}
+\DoxyCodeLine{00020\ }
+\DoxyCodeLine{00021\ \ \ \ \ \textcolor{keyword}{virtual}\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_pocion_vida_a5b22c6fa46c7f6e0ef1348389e96d3fc}{usar}}(\mbox{\hyperlink{class_heroe}{Heroe}}\&\ h);\ \textcolor{comment}{//\ Referencia\ a\ la\ clase\ Heroe\ por\ que\ es\ con\ quien\ va\ a\ ser\ usada\ }}
+\DoxyCodeLine{00022\ \};}
+\DoxyCodeLine{00023\ }
+\DoxyCodeLine{00024\ \textcolor{preprocessor}{\#endif}}
+
+\end{DoxyCode}

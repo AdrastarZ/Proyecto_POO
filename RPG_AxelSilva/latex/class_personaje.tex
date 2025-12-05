@@ -1,0 +1,161 @@
+\doxysection{Personaje Class Reference}
+\hypertarget{class_personaje}{}\label{class_personaje}\index{Personaje@{Personaje}}
+
+
+{\ttfamily \#include $<$Personaje.\+h$>$}
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_personaje_afa1c1cb0768df2ddbd9cb0c7125ba3f0}{Personaje}} (string nom, int atk, int def, int ps\+Max)
+\item 
+virtual \mbox{\hyperlink{class_personaje_a0b3c25862a6081aaee96e77c08edda29}{\texorpdfstring{$\sim$}{\string~}\+Personaje}} ()
+\item 
+void \mbox{\hyperlink{class_personaje_ad5c3a613cb35a92472a164a6fac20111}{set\+Nombre}} (string nom)
+\item 
+string \mbox{\hyperlink{class_personaje_a579df2fbe0de0583c9307dc7ae6eb56e}{get\+Nombre}} ()
+\item 
+void \mbox{\hyperlink{class_personaje_a100c669d43101de23ccb8d8af95af1fd}{set\+Vida\+Actual}} (int ps\+Restante)
+\item 
+int \mbox{\hyperlink{class_personaje_afff90879e6050a03402d3c390a9d8e2f}{get\+Vida\+Actual}} ()
+\item 
+void \mbox{\hyperlink{class_personaje_abdbf0d48743c24837afe401de1563620}{set\+Vida\+Maxima}} (int ps\+Max)
+\item 
+int \mbox{\hyperlink{class_personaje_ae77616c237cefd369d42a9d192269182}{get\+Vida\+Maxima}} ()
+\item 
+void \mbox{\hyperlink{class_personaje_ab49b3a18a688cbfe4c31d313dd7efe32}{set\+Ataque}} (int atk)
+\item 
+int \mbox{\hyperlink{class_personaje_ab91279a4171e0bc38f4282416809f116}{get\+Ataque}} ()
+\item 
+void \mbox{\hyperlink{class_personaje_a603f958d5bfe00b10fd2bb6447d4e613}{set\+Defensa}} (int def)
+\item 
+int \mbox{\hyperlink{class_personaje_ad2c2b1334e8363c4c2b914930585f09b}{get\+Defensa}} ()
+\item 
+void \mbox{\hyperlink{class_personaje_a3aaa99df5577d099ef8193eb74f5ee33}{atacar}} (\mbox{\hyperlink{class_personaje}{Personaje}} \&objetivo)
+\item 
+virtual void \mbox{\hyperlink{class_personaje_a74c7293231599b0ee5217deaa566c82b}{recibir\+Dano}} (int cantidad)
+\item 
+virtual int \mbox{\hyperlink{class_personaje_a72fe23f0bac5b78317cba0d68536f67e}{get\+XP}} ()
+\item 
+bool \mbox{\hyperlink{class_personaje_a9f53b9854c756fe0fd6f040d17755440}{esta\+Vivo}} ()
+\end{DoxyCompactItemize}
+
+
+\label{doc-constructors}
+\Hypertarget{class_personaje_doc-constructors}
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_personaje_afa1c1cb0768df2ddbd9cb0c7125ba3f0}\index{Personaje@{Personaje}!Personaje@{Personaje}}
+\index{Personaje@{Personaje}!Personaje@{Personaje}}
+\doxysubsubsection{\texorpdfstring{Personaje()}{Personaje()}}
+{\footnotesize\ttfamily \label{class_personaje_afa1c1cb0768df2ddbd9cb0c7125ba3f0} 
+Personaje\+::\+Personaje (\begin{DoxyParamCaption}\item[{string}]{nom}{, }\item[{int}]{atk}{, }\item[{int}]{def}{, }\item[{int}]{ps\+Max}{}\end{DoxyParamCaption})}
+
+\Hypertarget{class_personaje_a0b3c25862a6081aaee96e77c08edda29}\index{Personaje@{Personaje}!````~Personaje@{\texorpdfstring{$\sim$}{\string~}Personaje}}
+\index{````~Personaje@{\texorpdfstring{$\sim$}{\string~}Personaje}!Personaje@{Personaje}}
+\doxysubsubsection{\texorpdfstring{\texorpdfstring{$\sim$}{\string~}Personaje()}{\string~Personaje()}}
+{\footnotesize\ttfamily \label{class_personaje_a0b3c25862a6081aaee96e77c08edda29} 
+Personaje\+::\texorpdfstring{$\sim$}{\string~}\+Personaje (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+\label{doc-func-members}
+\Hypertarget{class_personaje_doc-func-members}
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_personaje_a3aaa99df5577d099ef8193eb74f5ee33}\index{Personaje@{Personaje}!atacar@{atacar}}
+\index{atacar@{atacar}!Personaje@{Personaje}}
+\doxysubsubsection{\texorpdfstring{atacar()}{atacar()}}
+{\footnotesize\ttfamily \label{class_personaje_a3aaa99df5577d099ef8193eb74f5ee33} 
+void Personaje\+::atacar (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_personaje}{Personaje}} \&}]{objetivo}{}\end{DoxyParamCaption})}
+
+\Hypertarget{class_personaje_a9f53b9854c756fe0fd6f040d17755440}\index{Personaje@{Personaje}!estaVivo@{estaVivo}}
+\index{estaVivo@{estaVivo}!Personaje@{Personaje}}
+\doxysubsubsection{\texorpdfstring{estaVivo()}{estaVivo()}}
+{\footnotesize\ttfamily \label{class_personaje_a9f53b9854c756fe0fd6f040d17755440} 
+bool Personaje\+::esta\+Vivo (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+\Hypertarget{class_personaje_ab91279a4171e0bc38f4282416809f116}\index{Personaje@{Personaje}!getAtaque@{getAtaque}}
+\index{getAtaque@{getAtaque}!Personaje@{Personaje}}
+\doxysubsubsection{\texorpdfstring{getAtaque()}{getAtaque()}}
+{\footnotesize\ttfamily \label{class_personaje_ab91279a4171e0bc38f4282416809f116} 
+int Personaje\+::get\+Ataque (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+\Hypertarget{class_personaje_ad2c2b1334e8363c4c2b914930585f09b}\index{Personaje@{Personaje}!getDefensa@{getDefensa}}
+\index{getDefensa@{getDefensa}!Personaje@{Personaje}}
+\doxysubsubsection{\texorpdfstring{getDefensa()}{getDefensa()}}
+{\footnotesize\ttfamily \label{class_personaje_ad2c2b1334e8363c4c2b914930585f09b} 
+int Personaje\+::get\+Defensa (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+\Hypertarget{class_personaje_a579df2fbe0de0583c9307dc7ae6eb56e}\index{Personaje@{Personaje}!getNombre@{getNombre}}
+\index{getNombre@{getNombre}!Personaje@{Personaje}}
+\doxysubsubsection{\texorpdfstring{getNombre()}{getNombre()}}
+{\footnotesize\ttfamily \label{class_personaje_a579df2fbe0de0583c9307dc7ae6eb56e} 
+string Personaje\+::get\+Nombre (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+\Hypertarget{class_personaje_afff90879e6050a03402d3c390a9d8e2f}\index{Personaje@{Personaje}!getVidaActual@{getVidaActual}}
+\index{getVidaActual@{getVidaActual}!Personaje@{Personaje}}
+\doxysubsubsection{\texorpdfstring{getVidaActual()}{getVidaActual()}}
+{\footnotesize\ttfamily \label{class_personaje_afff90879e6050a03402d3c390a9d8e2f} 
+int Personaje\+::get\+Vida\+Actual (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+\Hypertarget{class_personaje_ae77616c237cefd369d42a9d192269182}\index{Personaje@{Personaje}!getVidaMaxima@{getVidaMaxima}}
+\index{getVidaMaxima@{getVidaMaxima}!Personaje@{Personaje}}
+\doxysubsubsection{\texorpdfstring{getVidaMaxima()}{getVidaMaxima()}}
+{\footnotesize\ttfamily \label{class_personaje_ae77616c237cefd369d42a9d192269182} 
+int Personaje\+::get\+Vida\+Maxima (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+\Hypertarget{class_personaje_a72fe23f0bac5b78317cba0d68536f67e}\index{Personaje@{Personaje}!getXP@{getXP}}
+\index{getXP@{getXP}!Personaje@{Personaje}}
+\doxysubsubsection{\texorpdfstring{getXP()}{getXP()}}
+{\footnotesize\ttfamily \label{class_personaje_a72fe23f0bac5b78317cba0d68536f67e} 
+virtual int Personaje\+::get\+XP (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Reimplemented in \mbox{\hyperlink{class_dragon_a3885983de9998f63c0101b10595b10c4}{Dragon}}, \mbox{\hyperlink{class_golem_ad587c131210dc488f22d418d4169a332}{Golem}}, and \mbox{\hyperlink{class_zombie_ad84621b8148e2f368838da1aa2fe0cb0}{Zombie}}.
+
+\Hypertarget{class_personaje_a74c7293231599b0ee5217deaa566c82b}\index{Personaje@{Personaje}!recibirDano@{recibirDano}}
+\index{recibirDano@{recibirDano}!Personaje@{Personaje}}
+\doxysubsubsection{\texorpdfstring{recibirDano()}{recibirDano()}}
+{\footnotesize\ttfamily \label{class_personaje_a74c7293231599b0ee5217deaa566c82b} 
+void Personaje\+::recibir\+Dano (\begin{DoxyParamCaption}\item[{int}]{cantidad}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Reimplemented in \mbox{\hyperlink{class_heroe_a438bf34dc7c5e04a0e694da8f811d497}{Heroe}}.
+
+\Hypertarget{class_personaje_ab49b3a18a688cbfe4c31d313dd7efe32}\index{Personaje@{Personaje}!setAtaque@{setAtaque}}
+\index{setAtaque@{setAtaque}!Personaje@{Personaje}}
+\doxysubsubsection{\texorpdfstring{setAtaque()}{setAtaque()}}
+{\footnotesize\ttfamily \label{class_personaje_ab49b3a18a688cbfe4c31d313dd7efe32} 
+void Personaje\+::set\+Ataque (\begin{DoxyParamCaption}\item[{int}]{atk}{}\end{DoxyParamCaption})}
+
+\Hypertarget{class_personaje_a603f958d5bfe00b10fd2bb6447d4e613}\index{Personaje@{Personaje}!setDefensa@{setDefensa}}
+\index{setDefensa@{setDefensa}!Personaje@{Personaje}}
+\doxysubsubsection{\texorpdfstring{setDefensa()}{setDefensa()}}
+{\footnotesize\ttfamily \label{class_personaje_a603f958d5bfe00b10fd2bb6447d4e613} 
+void Personaje\+::set\+Defensa (\begin{DoxyParamCaption}\item[{int}]{def}{}\end{DoxyParamCaption})}
+
+\Hypertarget{class_personaje_ad5c3a613cb35a92472a164a6fac20111}\index{Personaje@{Personaje}!setNombre@{setNombre}}
+\index{setNombre@{setNombre}!Personaje@{Personaje}}
+\doxysubsubsection{\texorpdfstring{setNombre()}{setNombre()}}
+{\footnotesize\ttfamily \label{class_personaje_ad5c3a613cb35a92472a164a6fac20111} 
+void Personaje\+::set\+Nombre (\begin{DoxyParamCaption}\item[{string}]{nom}{}\end{DoxyParamCaption})}
+
+\Hypertarget{class_personaje_a100c669d43101de23ccb8d8af95af1fd}\index{Personaje@{Personaje}!setVidaActual@{setVidaActual}}
+\index{setVidaActual@{setVidaActual}!Personaje@{Personaje}}
+\doxysubsubsection{\texorpdfstring{setVidaActual()}{setVidaActual()}}
+{\footnotesize\ttfamily \label{class_personaje_a100c669d43101de23ccb8d8af95af1fd} 
+void Personaje\+::set\+Vida\+Actual (\begin{DoxyParamCaption}\item[{int}]{ps\+Restante}{}\end{DoxyParamCaption})}
+
+\Hypertarget{class_personaje_abdbf0d48743c24837afe401de1563620}\index{Personaje@{Personaje}!setVidaMaxima@{setVidaMaxima}}
+\index{setVidaMaxima@{setVidaMaxima}!Personaje@{Personaje}}
+\doxysubsubsection{\texorpdfstring{setVidaMaxima()}{setVidaMaxima()}}
+{\footnotesize\ttfamily \label{class_personaje_abdbf0d48743c24837afe401de1563620} 
+void Personaje\+::set\+Vida\+Maxima (\begin{DoxyParamCaption}\item[{int}]{ps\+Max}{}\end{DoxyParamCaption})}
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{_personaje_8h}{Personaje.\+h}}\item 
+\mbox{\hyperlink{_personaje_8cpp}{Personaje.\+cpp}}\end{DoxyCompactItemize}

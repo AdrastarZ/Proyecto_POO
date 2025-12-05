@@ -1,0 +1,27 @@
+\doxysection{Pocion\+Ataque.\+h}
+\hypertarget{_pocion_ataque_8h_source}{}\label{_pocion_ataque_8h_source}\mbox{\hyperlink{_pocion_ataque_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{preprocessor}{\#ifndef\ POCIONATAQUE\_H}}
+\DoxyCodeLine{00002\ \textcolor{preprocessor}{\#define\ POCIONATAQUE\_H}}
+\DoxyCodeLine{00003\ }
+\DoxyCodeLine{00004\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{_objeto_8h}{Objeto.h}}"{}}}
+\DoxyCodeLine{00005\ \textcolor{preprocessor}{\#include\ <iostream>}}
+\DoxyCodeLine{00006\ }
+\DoxyCodeLine{00007\ \textcolor{keyword}{using\ namespace\ }std;}
+\DoxyCodeLine{00008\ }
+\DoxyCodeLine{00009\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_pocion_ataque_a3d7c8b34e81e825c792c9f012b8440ec}{PocionAtaque}}\ :\ \textcolor{keyword}{public}\ \mbox{\hyperlink{class_objeto_adf4ba437350df79f9ae1f0876a31fccc}{Objeto}}\ \textcolor{comment}{//Clase\ heredada\ de\ la\ clase\ Objeto}}
+\DoxyCodeLine{00010\ \{}
+\DoxyCodeLine{00011\ \textcolor{keyword}{protected}:}
+\DoxyCodeLine{00012\ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{class_pocion_ataque_a33342ac2714531e28879608f0c0fb816}{boostAtkMin}};}
+\DoxyCodeLine{00013\ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{class_pocion_ataque_a52cfc4e2a900828ca0e8461158e1510c}{boostAtkMax}};}
+\DoxyCodeLine{00014\ }
+\DoxyCodeLine{00015\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00016\ \ \ \ \ \mbox{\hyperlink{class_pocion_ataque_a3d7c8b34e81e825c792c9f012b8440ec}{PocionAtaque}}();}
+\DoxyCodeLine{00017\ \ \ \ \ \textcolor{keyword}{virtual}\ \mbox{\hyperlink{class_pocion_ataque_a83b580c139f89482b9af02b216d20f32}{\string~PocionAtaque}}();}
+\DoxyCodeLine{00018\ \ }
+\DoxyCodeLine{00019\ \ \ \ \ \textcolor{keyword}{virtual}\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_pocion_ataque_a6026ff60d47700a06b1c3ce0c00211ca}{usar}}(\mbox{\hyperlink{class_heroe}{Heroe}}\&\ h);\textcolor{comment}{//\ Referencia\ a\ la\ clase\ Heroe\ por\ que\ es\ con\ quien\ va\ a\ ser\ usada}}
+\DoxyCodeLine{00020\ \};}
+\DoxyCodeLine{00021\ }
+\DoxyCodeLine{00022\ \textcolor{preprocessor}{\#endif}}
+
+\end{DoxyCode}

@@ -1,0 +1,33 @@
+\doxysection{Inventario.\+h}
+\hypertarget{_inventario_8h_source}{}\label{_inventario_8h_source}\mbox{\hyperlink{_inventario_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{preprocessor}{\#ifndef\ INVENTARIO\_H}}
+\DoxyCodeLine{00002\ \textcolor{preprocessor}{\#define\ INVENTARIO\_H}}
+\DoxyCodeLine{00003\ }
+\DoxyCodeLine{00004\ \textcolor{keyword}{using\ namespace\ }std;}
+\DoxyCodeLine{00005\ }
+\DoxyCodeLine{00006\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{_pocion_ataque_8h}{PocionAtaque.h}}"{}}}
+\DoxyCodeLine{00007\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{_pocion_vida_8h}{PocionVida.h}}"{}}}
+\DoxyCodeLine{00008\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{_pocion_defensa_8h}{PocionDefensa.h}}"{}}}
+\DoxyCodeLine{00009\ \textcolor{preprocessor}{\#include\ <iostream>}}
+\DoxyCodeLine{00010\ }
+\DoxyCodeLine{00011\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_heroe}{Heroe}};\ \textcolor{comment}{//Llamada\ con\ anterioridad\ de\ vido\ a\ los\ objetos\ depende\ de\ la\ existencia\ del\ heroe}}
+\DoxyCodeLine{00012\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_inventario_ab7ca21da6822bc59fa236f7238e20fd3}{Inventario}}\ \textcolor{comment}{//clase\ Base}}
+\DoxyCodeLine{00013\ \{}
+\DoxyCodeLine{00014\ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00015\ \ \ \ \ \mbox{\hyperlink{class_pocion_vida}{PocionVida}}\ pocionVida;}
+\DoxyCodeLine{00016\ \ \ \ \ \mbox{\hyperlink{class_pocion_ataque}{PocionAtaque}}\ pocionAtaque;}
+\DoxyCodeLine{00017\ \ \ \ \ \mbox{\hyperlink{class_pocion_defensa}{PocionDefensa}}\ pocionDefensa;}
+\DoxyCodeLine{00018\ }
+\DoxyCodeLine{00019\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00020\ \ \ \ \ \mbox{\hyperlink{class_inventario_ab7ca21da6822bc59fa236f7238e20fd3}{Inventario}}();}
+\DoxyCodeLine{00021\ \ \ \ \ \mbox{\hyperlink{class_inventario_a0b5c030c7cc22e57f92743fa26b781de}{\string~Inventario}}();}
+\DoxyCodeLine{00022\ }
+\DoxyCodeLine{00023\ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{class_inventario_af1c68772b43df7fcdca65f4ca0dc8993}{mostrarMenu}}();}
+\DoxyCodeLine{00024\ }
+\DoxyCodeLine{00025\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_inventario_ab0dfb14098debf59fd226c9b83010a8d}{usarObjeto}}(\textcolor{keywordtype}{int}\ opcion,\ \mbox{\hyperlink{class_heroe}{Heroe}}\&\ h);}
+\DoxyCodeLine{00026\ \};}
+\DoxyCodeLine{00027\ }
+\DoxyCodeLine{00028\ \textcolor{preprocessor}{\#endif}}
+
+\end{DoxyCode}

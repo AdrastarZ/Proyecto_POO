@@ -1,0 +1,190 @@
+\doxysection{Heroe Class Reference}
+\hypertarget{class_heroe}{}\label{class_heroe}\index{Heroe@{Heroe}}
+
+
+{\ttfamily \#include $<$Heroe.\+h$>$}
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_heroe_a704d92afeb77d4e4dec53fd63ccbabf5}{Heroe}} (string nom, int atk, int def, int ps\+Max)
+\item 
+virtual \mbox{\hyperlink{class_heroe_a7ab42be95e2d002128e67bef1beea45d}{\texorpdfstring{$\sim$}{\string~}\+Heroe}} ()
+\item 
+void \mbox{\hyperlink{class_heroe_a0de81071f688b39e90b511b35b7619f0}{set\+Nivel}} (int niv)
+\item 
+int \mbox{\hyperlink{class_heroe_af3a3b2d4b1f106e7e1e40ac39ef0769b}{get\+Nivel}} ()
+\item 
+void \mbox{\hyperlink{class_heroe_adadf223ef277c45ff80b62a07a0d87a8}{set\+Exp}} (int exp)
+\item 
+int \mbox{\hyperlink{class_heroe_ad1ca759aa7454ee774497824340ec011}{get\+Exp}} ()
+\item 
+virtual void \mbox{\hyperlink{class_heroe_a438bf34dc7c5e04a0e694da8f811d497}{recibir\+Dano}} (int cantidad) override
+\item 
+int \mbox{\hyperlink{class_heroe_a9cd9340f853b187f7faaa0ae9319bf89}{get\+Ataque\+Total}} ()
+\item 
+int \mbox{\hyperlink{class_heroe_a772934531f25fc5655e28c74c1db7b84}{get\+Defensa\+Total}} ()
+\item 
+void \mbox{\hyperlink{class_heroe_a764d353cc25503fc080051ead1abcee7}{ganar\+Experiencia}} (int cantidad)
+\item 
+void \mbox{\hyperlink{class_heroe_a3f6a66ab2b5c3f659b9f05386428a3e6}{subir\+Nivel}} ()
+\item 
+void \mbox{\hyperlink{class_heroe_aa00bd63faadbce04b326eed7dc18cbb5}{agregar\+Bonus\+Ataque}} (int cantidad)
+\item 
+void \mbox{\hyperlink{class_heroe_a6b9768d1cc8c48cf306f9696d22fe12d}{agregar\+Bonus\+Defensa}} (int cantidad)
+\item 
+void \mbox{\hyperlink{class_heroe_a7f6280d3a199194fe00d63b695ac5aea}{abrir\+Inventario}} ()
+\item 
+virtual void \mbox{\hyperlink{class_heroe_a212b583d7c1a26f8d6f994fc07298196}{atacar}} (\mbox{\hyperlink{class_personaje}{Personaje}} \&objetivo)
+\item 
+void \mbox{\hyperlink{class_heroe_a48345130af13b2d3ff65776b92151ff4}{reset\+Bonos}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions inherited from \mbox{\hyperlink{class_personaje}{Personaje}}}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_personaje_afa1c1cb0768df2ddbd9cb0c7125ba3f0}{Personaje}} (string nom, int atk, int def, int ps\+Max)
+\item 
+virtual \mbox{\hyperlink{class_personaje_a0b3c25862a6081aaee96e77c08edda29}{\texorpdfstring{$\sim$}{\string~}\+Personaje}} ()
+\item 
+void \mbox{\hyperlink{class_personaje_ad5c3a613cb35a92472a164a6fac20111}{set\+Nombre}} (string nom)
+\item 
+string \mbox{\hyperlink{class_personaje_a579df2fbe0de0583c9307dc7ae6eb56e}{get\+Nombre}} ()
+\item 
+void \mbox{\hyperlink{class_personaje_a100c669d43101de23ccb8d8af95af1fd}{set\+Vida\+Actual}} (int ps\+Restante)
+\item 
+int \mbox{\hyperlink{class_personaje_afff90879e6050a03402d3c390a9d8e2f}{get\+Vida\+Actual}} ()
+\item 
+void \mbox{\hyperlink{class_personaje_abdbf0d48743c24837afe401de1563620}{set\+Vida\+Maxima}} (int ps\+Max)
+\item 
+int \mbox{\hyperlink{class_personaje_ae77616c237cefd369d42a9d192269182}{get\+Vida\+Maxima}} ()
+\item 
+void \mbox{\hyperlink{class_personaje_ab49b3a18a688cbfe4c31d313dd7efe32}{set\+Ataque}} (int atk)
+\item 
+int \mbox{\hyperlink{class_personaje_ab91279a4171e0bc38f4282416809f116}{get\+Ataque}} ()
+\item 
+void \mbox{\hyperlink{class_personaje_a603f958d5bfe00b10fd2bb6447d4e613}{set\+Defensa}} (int def)
+\item 
+int \mbox{\hyperlink{class_personaje_ad2c2b1334e8363c4c2b914930585f09b}{get\+Defensa}} ()
+\item 
+void \mbox{\hyperlink{class_personaje_a3aaa99df5577d099ef8193eb74f5ee33}{atacar}} (\mbox{\hyperlink{class_personaje}{Personaje}} \&objetivo)
+\item 
+virtual int \mbox{\hyperlink{class_personaje_a72fe23f0bac5b78317cba0d68536f67e}{get\+XP}} ()
+\item 
+bool \mbox{\hyperlink{class_personaje_a9f53b9854c756fe0fd6f040d17755440}{esta\+Vivo}} ()
+\end{DoxyCompactItemize}
+
+
+\label{doc-constructors}
+\Hypertarget{class_heroe_doc-constructors}
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_heroe_a704d92afeb77d4e4dec53fd63ccbabf5}\index{Heroe@{Heroe}!Heroe@{Heroe}}
+\index{Heroe@{Heroe}!Heroe@{Heroe}}
+\doxysubsubsection{\texorpdfstring{Heroe()}{Heroe()}}
+{\footnotesize\ttfamily \label{class_heroe_a704d92afeb77d4e4dec53fd63ccbabf5} 
+Heroe\+::\+Heroe (\begin{DoxyParamCaption}\item[{string}]{nom}{, }\item[{int}]{atk}{, }\item[{int}]{def}{, }\item[{int}]{ps\+Max}{}\end{DoxyParamCaption})}
+
+\Hypertarget{class_heroe_a7ab42be95e2d002128e67bef1beea45d}\index{Heroe@{Heroe}!````~Heroe@{\texorpdfstring{$\sim$}{\string~}Heroe}}
+\index{````~Heroe@{\texorpdfstring{$\sim$}{\string~}Heroe}!Heroe@{Heroe}}
+\doxysubsubsection{\texorpdfstring{\texorpdfstring{$\sim$}{\string~}Heroe()}{\string~Heroe()}}
+{\footnotesize\ttfamily \label{class_heroe_a7ab42be95e2d002128e67bef1beea45d} 
+Heroe\+::\texorpdfstring{$\sim$}{\string~}\+Heroe (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+\label{doc-func-members}
+\Hypertarget{class_heroe_doc-func-members}
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_heroe_a7f6280d3a199194fe00d63b695ac5aea}\index{Heroe@{Heroe}!abrirInventario@{abrirInventario}}
+\index{abrirInventario@{abrirInventario}!Heroe@{Heroe}}
+\doxysubsubsection{\texorpdfstring{abrirInventario()}{abrirInventario()}}
+{\footnotesize\ttfamily \label{class_heroe_a7f6280d3a199194fe00d63b695ac5aea} 
+void Heroe\+::abrir\+Inventario (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+\Hypertarget{class_heroe_aa00bd63faadbce04b326eed7dc18cbb5}\index{Heroe@{Heroe}!agregarBonusAtaque@{agregarBonusAtaque}}
+\index{agregarBonusAtaque@{agregarBonusAtaque}!Heroe@{Heroe}}
+\doxysubsubsection{\texorpdfstring{agregarBonusAtaque()}{agregarBonusAtaque()}}
+{\footnotesize\ttfamily \label{class_heroe_aa00bd63faadbce04b326eed7dc18cbb5} 
+void Heroe\+::agregar\+Bonus\+Ataque (\begin{DoxyParamCaption}\item[{int}]{cantidad}{}\end{DoxyParamCaption})}
+
+\Hypertarget{class_heroe_a6b9768d1cc8c48cf306f9696d22fe12d}\index{Heroe@{Heroe}!agregarBonusDefensa@{agregarBonusDefensa}}
+\index{agregarBonusDefensa@{agregarBonusDefensa}!Heroe@{Heroe}}
+\doxysubsubsection{\texorpdfstring{agregarBonusDefensa()}{agregarBonusDefensa()}}
+{\footnotesize\ttfamily \label{class_heroe_a6b9768d1cc8c48cf306f9696d22fe12d} 
+void Heroe\+::agregar\+Bonus\+Defensa (\begin{DoxyParamCaption}\item[{int}]{cantidad}{}\end{DoxyParamCaption})}
+
+\Hypertarget{class_heroe_a212b583d7c1a26f8d6f994fc07298196}\index{Heroe@{Heroe}!atacar@{atacar}}
+\index{atacar@{atacar}!Heroe@{Heroe}}
+\doxysubsubsection{\texorpdfstring{atacar()}{atacar()}}
+{\footnotesize\ttfamily \label{class_heroe_a212b583d7c1a26f8d6f994fc07298196} 
+void Heroe\+::atacar (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_personaje}{Personaje}} \&}]{objetivo}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+\Hypertarget{class_heroe_a764d353cc25503fc080051ead1abcee7}\index{Heroe@{Heroe}!ganarExperiencia@{ganarExperiencia}}
+\index{ganarExperiencia@{ganarExperiencia}!Heroe@{Heroe}}
+\doxysubsubsection{\texorpdfstring{ganarExperiencia()}{ganarExperiencia()}}
+{\footnotesize\ttfamily \label{class_heroe_a764d353cc25503fc080051ead1abcee7} 
+void Heroe\+::ganar\+Experiencia (\begin{DoxyParamCaption}\item[{int}]{cantidad}{}\end{DoxyParamCaption})}
+
+\Hypertarget{class_heroe_a9cd9340f853b187f7faaa0ae9319bf89}\index{Heroe@{Heroe}!getAtaqueTotal@{getAtaqueTotal}}
+\index{getAtaqueTotal@{getAtaqueTotal}!Heroe@{Heroe}}
+\doxysubsubsection{\texorpdfstring{getAtaqueTotal()}{getAtaqueTotal()}}
+{\footnotesize\ttfamily \label{class_heroe_a9cd9340f853b187f7faaa0ae9319bf89} 
+int Heroe\+::get\+Ataque\+Total (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+\Hypertarget{class_heroe_a772934531f25fc5655e28c74c1db7b84}\index{Heroe@{Heroe}!getDefensaTotal@{getDefensaTotal}}
+\index{getDefensaTotal@{getDefensaTotal}!Heroe@{Heroe}}
+\doxysubsubsection{\texorpdfstring{getDefensaTotal()}{getDefensaTotal()}}
+{\footnotesize\ttfamily \label{class_heroe_a772934531f25fc5655e28c74c1db7b84} 
+int Heroe\+::get\+Defensa\+Total (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+\Hypertarget{class_heroe_ad1ca759aa7454ee774497824340ec011}\index{Heroe@{Heroe}!getExp@{getExp}}
+\index{getExp@{getExp}!Heroe@{Heroe}}
+\doxysubsubsection{\texorpdfstring{getExp()}{getExp()}}
+{\footnotesize\ttfamily \label{class_heroe_ad1ca759aa7454ee774497824340ec011} 
+int Heroe\+::get\+Exp (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+\Hypertarget{class_heroe_af3a3b2d4b1f106e7e1e40ac39ef0769b}\index{Heroe@{Heroe}!getNivel@{getNivel}}
+\index{getNivel@{getNivel}!Heroe@{Heroe}}
+\doxysubsubsection{\texorpdfstring{getNivel()}{getNivel()}}
+{\footnotesize\ttfamily \label{class_heroe_af3a3b2d4b1f106e7e1e40ac39ef0769b} 
+int Heroe\+::get\+Nivel (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+\Hypertarget{class_heroe_a438bf34dc7c5e04a0e694da8f811d497}\index{Heroe@{Heroe}!recibirDano@{recibirDano}}
+\index{recibirDano@{recibirDano}!Heroe@{Heroe}}
+\doxysubsubsection{\texorpdfstring{recibirDano()}{recibirDano()}}
+{\footnotesize\ttfamily \label{class_heroe_a438bf34dc7c5e04a0e694da8f811d497} 
+void Heroe\+::recibir\+Dano (\begin{DoxyParamCaption}\item[{int}]{cantidad}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Reimplemented from \mbox{\hyperlink{class_personaje_a74c7293231599b0ee5217deaa566c82b}{Personaje}}.
+
+\Hypertarget{class_heroe_a48345130af13b2d3ff65776b92151ff4}\index{Heroe@{Heroe}!resetBonos@{resetBonos}}
+\index{resetBonos@{resetBonos}!Heroe@{Heroe}}
+\doxysubsubsection{\texorpdfstring{resetBonos()}{resetBonos()}}
+{\footnotesize\ttfamily \label{class_heroe_a48345130af13b2d3ff65776b92151ff4} 
+void Heroe\+::reset\+Bonos (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+\Hypertarget{class_heroe_adadf223ef277c45ff80b62a07a0d87a8}\index{Heroe@{Heroe}!setExp@{setExp}}
+\index{setExp@{setExp}!Heroe@{Heroe}}
+\doxysubsubsection{\texorpdfstring{setExp()}{setExp()}}
+{\footnotesize\ttfamily \label{class_heroe_adadf223ef277c45ff80b62a07a0d87a8} 
+void Heroe\+::set\+Exp (\begin{DoxyParamCaption}\item[{int}]{exp}{}\end{DoxyParamCaption})}
+
+\Hypertarget{class_heroe_a0de81071f688b39e90b511b35b7619f0}\index{Heroe@{Heroe}!setNivel@{setNivel}}
+\index{setNivel@{setNivel}!Heroe@{Heroe}}
+\doxysubsubsection{\texorpdfstring{setNivel()}{setNivel()}}
+{\footnotesize\ttfamily \label{class_heroe_a0de81071f688b39e90b511b35b7619f0} 
+void Heroe\+::set\+Nivel (\begin{DoxyParamCaption}\item[{int}]{niv}{}\end{DoxyParamCaption})}
+
+\Hypertarget{class_heroe_a3f6a66ab2b5c3f659b9f05386428a3e6}\index{Heroe@{Heroe}!subirNivel@{subirNivel}}
+\index{subirNivel@{subirNivel}!Heroe@{Heroe}}
+\doxysubsubsection{\texorpdfstring{subirNivel()}{subirNivel()}}
+{\footnotesize\ttfamily \label{class_heroe_a3f6a66ab2b5c3f659b9f05386428a3e6} 
+void Heroe\+::subir\+Nivel (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{_heroe_8h}{Heroe.\+h}}\item 
+\mbox{\hyperlink{_heroe_8cpp}{Heroe.\+cpp}}\end{DoxyCompactItemize}

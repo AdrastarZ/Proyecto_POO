@@ -1,0 +1,61 @@
+\doxysection{Heroe.\+h}
+\hypertarget{_heroe_8h_source}{}\label{_heroe_8h_source}\mbox{\hyperlink{_heroe_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{preprocessor}{\#ifndef\ HEROE\_H}}
+\DoxyCodeLine{00002\ \textcolor{preprocessor}{\#define\ HEROE\_H}}
+\DoxyCodeLine{00003\ }
+\DoxyCodeLine{00004\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{_personaje_8h}{Personaje.h}}"{}}}
+\DoxyCodeLine{00005\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{_inventario_8h}{Inventario.h}}"{}}}
+\DoxyCodeLine{00006\ \textcolor{preprocessor}{\#include\ <iostream>}}
+\DoxyCodeLine{00007\ }
+\DoxyCodeLine{00008\ \textcolor{keyword}{using\ namespace\ }std;}
+\DoxyCodeLine{00009\ }
+\DoxyCodeLine{00010\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_heroe_a704d92afeb77d4e4dec53fd63ccbabf5}{Heroe}}\ :\ \textcolor{keyword}{public}\ \mbox{\hyperlink{class_personaje_afa1c1cb0768df2ddbd9cb0c7125ba3f0}{Personaje}}}
+\DoxyCodeLine{00011\ \{}
+\DoxyCodeLine{00012\ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00013\ \ \ \ \ \textcolor{keywordtype}{int}\ nivel;}
+\DoxyCodeLine{00014\ \ \ \ \ \textcolor{keywordtype}{int}\ experienciaActual;}
+\DoxyCodeLine{00015\ \ \ \ \ \textcolor{keywordtype}{int}\ experienciaNecesaria;}
+\DoxyCodeLine{00016\ \ \ \ \ \textcolor{keywordtype}{int}\ bonusAtaque;}
+\DoxyCodeLine{00017\ \ \ \ \ \textcolor{keywordtype}{int}\ bonusDefensa;}
+\DoxyCodeLine{00018\ \ \ \ \ \mbox{\hyperlink{class_inventario}{Inventario}}\ inventario;}
+\DoxyCodeLine{00019\ }
+\DoxyCodeLine{00020\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00021\ \ \ \ \ \mbox{\hyperlink{class_heroe_a704d92afeb77d4e4dec53fd63ccbabf5}{Heroe}}(\textcolor{keywordtype}{string}\ nom,\ \textcolor{keywordtype}{int}\ atk,\ \textcolor{keywordtype}{int}\ def,\ \textcolor{keywordtype}{int}\ psMax);}
+\DoxyCodeLine{00022\ }
+\DoxyCodeLine{00023\ \ \ \ \ \textcolor{keyword}{virtual}\ \mbox{\hyperlink{class_heroe_a7ab42be95e2d002128e67bef1beea45d}{\string~Heroe}}();}
+\DoxyCodeLine{00024\ }
+\DoxyCodeLine{00025\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_heroe_a0de81071f688b39e90b511b35b7619f0}{setNivel}}(\textcolor{keywordtype}{int}\ niv);}
+\DoxyCodeLine{00026\ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{class_heroe_af3a3b2d4b1f106e7e1e40ac39ef0769b}{getNivel}}();}
+\DoxyCodeLine{00027\ }
+\DoxyCodeLine{00028\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_heroe_adadf223ef277c45ff80b62a07a0d87a8}{setExp}}(\textcolor{keywordtype}{int}\ exp);}
+\DoxyCodeLine{00029\ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{class_heroe_ad1ca759aa7454ee774497824340ec011}{getExp}}();}
+\DoxyCodeLine{00030\ }
+\DoxyCodeLine{00031\ \ \ \ \ \textcolor{keyword}{virtual}\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_heroe_a438bf34dc7c5e04a0e694da8f811d497}{recibirDano}}(\textcolor{keywordtype}{int}\ cantidad)\ \textcolor{keyword}{override};\ \textcolor{comment}{//Se\ usa\ override\ por\ que\ se\ le\ modifica\ el\ funcionamiento\ del\ metodo\ a\ como\ estaba\ en\ la\ clase\ personaje}}
+\DoxyCodeLine{00032\ }
+\DoxyCodeLine{00033\ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{class_heroe_a9cd9340f853b187f7faaa0ae9319bf89}{getAtaqueTotal}}();}
+\DoxyCodeLine{00034\ }
+\DoxyCodeLine{00035\ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{class_heroe_a772934531f25fc5655e28c74c1db7b84}{getDefensaTotal}}();}
+\DoxyCodeLine{00036\ }
+\DoxyCodeLine{00037\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_heroe_a764d353cc25503fc080051ead1abcee7}{ganarExperiencia}}(\textcolor{keywordtype}{int}\ cantidad);}
+\DoxyCodeLine{00038\ }
+\DoxyCodeLine{00039\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_heroe_a3f6a66ab2b5c3f659b9f05386428a3e6}{subirNivel}}();}
+\DoxyCodeLine{00040\ }
+\DoxyCodeLine{00041\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_heroe_aa00bd63faadbce04b326eed7dc18cbb5}{agregarBonusAtaque}}(\textcolor{keywordtype}{int}\ cantidad);}
+\DoxyCodeLine{00042\ }
+\DoxyCodeLine{00043\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_heroe_a6b9768d1cc8c48cf306f9696d22fe12d}{agregarBonusDefensa}}(\textcolor{keywordtype}{int}\ cantidad);}
+\DoxyCodeLine{00044\ }
+\DoxyCodeLine{00045\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_heroe_a7f6280d3a199194fe00d63b695ac5aea}{abrirInventario}}();}
+\DoxyCodeLine{00046\ }
+\DoxyCodeLine{00047\ }
+\DoxyCodeLine{00048\ \ \ \ \ \textcolor{keyword}{virtual}\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_heroe_a212b583d7c1a26f8d6f994fc07298196}{atacar}}(\mbox{\hyperlink{class_personaje_afa1c1cb0768df2ddbd9cb0c7125ba3f0}{Personaje}}\ \&objetivo);}
+\DoxyCodeLine{00049\ }
+\DoxyCodeLine{00050\ }
+\DoxyCodeLine{00051\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_heroe_a48345130af13b2d3ff65776b92151ff4}{resetBonos}}();}
+\DoxyCodeLine{00052\ \};}
+\DoxyCodeLine{00053\ }
+\DoxyCodeLine{00054\ }
+\DoxyCodeLine{00055\ }
+\DoxyCodeLine{00056\ \textcolor{preprocessor}{\#endif}}
+
+\end{DoxyCode}
